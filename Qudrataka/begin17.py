@@ -1,0 +1,6 @@
+A = input('Birinchi nuqtani kiriting: ')
+B = input('Ikkinchi nuqtani kiriting: ')
+C = input('Uchinchi nuqtani kiriting: ')
+print('AC kesma uzunligi: ', abs(int(A)-int(C)))
+print('BC kesma uzunligi: ', abs(int(B)-int(C)))
+print('Kesmalar ye\'gindisi: ', abs(int(A)-int(C)+int(B)-int(C)))

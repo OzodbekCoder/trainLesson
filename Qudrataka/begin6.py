@@ -1,0 +1,5 @@
+a = input('Parallelipiped uzunligini kiriting: ')
+b = input('Parallelipiped balandligini kiriting: ')
+c = input('Parallelipiped enini kiriting: ')
+print ('Parallelipiped hajmi ', int(a)*int(b)*int(c))
+print ('Parallelipiped to\'la sirti ', 2*(int(a)*int(b)+int(c)*int(b)+int(a)*int(c)))
